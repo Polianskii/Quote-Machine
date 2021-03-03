@@ -1,0 +1,550 @@
+{
+  "quotes": [
+  {
+    "quote": ["The more people you love, the weaker you are.",
+              "Чем больше людей ты любишь, тем ты слабее."],
+    "author": ["The Game of Thrones", "Игра престолов"]
+  },
+  {
+    "quote": ["Be great in act, as you have been in thought.",
+              "Будь таким же смелым в действиях, каким был в мыслях."],
+    "author": ["William Shakespeare", "Уильям Шекспир"]
+  },
+  {
+    "quote": ["When a true genius appears in this world, you may know him by this sign, that the dunces are all in confederacy against him.",
+              "Когда на свет появляется истинный гений, то узнать его можно хотя бы потому, что все тупоголовые объединяются в борьбе против него."],
+    "author": ["Jonathan Swift", "Джонатан Свифт"]
+  },
+  {
+    "quote": ["I don’t know half of you half as well as I should like; and I like less than half of you half as well as you deserve.",
+              "Половину из вас я знаю вполовину меньше, чем хотел бы знать, а другую половину люблю вполовину меньше, чем вы того стоит."],
+    "author": ["Tolkien J.R.R.", "Дж.Р.Р. Толкиен"]
+  },
+  {
+    "quote": ["Now I have done what I can, he thought. Let him begin to circle and let the fight come.",
+              "“Теперь я сделал все, что мог,” подумал он. Это и было началом борьбы."],
+    "author": ["Ernest Hemingway", "Эрнест Хэмингуей"]
+  },
+  {
+    "quote": ["When they are preparing for war, those who rule by force speak most copiously about peace until they have completed the mobilization process.",
+              "Готовясь к войне, деспотичные правители все чаще говорят о мире; так продолжается, пока не закончится процесс мобилизации."],
+    "author": ["Stefan Zweig", "Стефан Цвейг"]
+  },
+  {
+    "quote": ["All the world is made of faith, and trust, and pixie dust.",
+              "Весь мир сделан из веры, доверия и пыльцы фей"],
+    "author": ["James Matthew Barrie", "Джеймс Мэтью Барри"]
+  },
+  {
+    "quote": ["To live is the rarest thing in the world. Most people exist, that’s all.",
+              "Жить — редчайшее в мире явление. Большинство людей просто существуют"],
+     "author": ["Oscar Wilde", "Оскар Уайлд"]
+  },
+  {
+    "quote": ["Life isn’t about getting and having, it’s about giving and being.",
+              "Жизнь не в том, чтобы получать и иметь, а в том, чтобы отдавать и быть."],
+    "author": ["Kevin Kruse", "Кевин Круз"]
+  },
+  {
+    "quote": ["Whatever the mind of man can conceive and believe, it can achieve.",
+              "Все, что человеческий разум может вообразить и во что поверить, он может достичь."],
+    "author": ["Napoleon Hill", "Наполеон Хилл"]
+  },
+  {
+    "quote": ["Strive not to be a success, but rather to be of value.",
+              "Стремитесь не к успеху, а к ценности."],
+    "author": ["Albert Einstein", "Альберт Энштейн"]
+  },
+  {
+    "quote": ["Two roads diverged in a wood, and I—I took the one less traveled by, And that has made all the difference.",
+              "Две дороги расходились в лесу, и я… я выбрал ту, по которой ездили меньше, И это имело все значение."],
+    "author": ["Robert Frost", "Роберт Фрост"]
+  },
+  {
+    "quote": ["I attribute my success to this: I never gave or took any excuse.",
+              "Я приписываю свой успех этому: я никогда не оправдывался и не принимал никаких оправданий."],
+    "author": ["Florence Nightingale", "Флоренс Найтингейл"]
+  },
+  {
+    "quote": ["You miss 100% of the shots you don’t take.",
+              "Вы пропускаете 100% кадров, которые не делаете."],
+    "author": ["Wayne Gretzky", "Уэйн Гретцки"]
+  },
+  {
+    "quote": ["I’ve missed more than 9000 shots in my career. I’ve lost almost 300 games. 26 times I’ve been trusted to take the game winning shot and missed. I’ve failed over and over and over again in my life. And that is why I succeed.",
+              "За свою карьеру я пропустил более 9000 бросков. Я проиграл почти 300 игр. 26 раз мне доверяли сделать победный бросок, и я промахивался. Я терпел неудачи снова и снова в своей жизни. И поэтому мне это удается."],
+    "author": ["Michael Jordan", "Майкл Джордан"]
+  },
+  {
+    "quote": ["The most difficult thing is the decision to act, the rest is merely tenacity.",
+              "Самое сложное - это решение действовать, остальное - просто упорство."],
+    "author": ["Amelia Earhart", "Амелия Эрхарт"]
+  },
+  {
+    "quote": ["Every strike brings me closer to the next home run.",
+              "Каждый удар приближает меня к следующему хоумрану."],
+    "author": ["Babe Ruth", "Бэйби Рут"]
+  },
+  {
+    "quote": ["Definiteness of purpose is the starting point of all achievement.",
+              "Определенность цели - отправная точка всех достижений."],
+    "author": ["W. Clement Stone", "В. Клемент Стоун"]
+  },
+  {
+    "quote": ["We must balance conspicuous consumption with conscious capitalism.",
+              "Мы должны сбалансировать демонстративное потребление с сознательным капитализмом."],
+    "author": ["Kevin Kruse", "Кевин Круз"]
+  },
+  {
+    "quote": ["Life is what happens to you while you’re busy making other plans.",
+              "Жизнь - это то, что происходит с вами, пока вы строите другие планы."],
+    "author": ["John Lennon", "Джон Леннон"]
+  },
+  {
+    "quote": ["We become what we think about.",
+              "Мы становимся тем, о чем думаем."],
+    "author": ["Earl Nightingale", "Эрл Найтингейл"]
+  },
+  {
+    "quote": ["Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do, so throw off the bowlines, sail away from safe harbor, catch the trade winds in your sails.  Explore, Dream, Discover.",
+              "Через двадцать лет вы будете больше разочарованы тем, чего не делали, а не тем, что делали, поэтому сбросьте булинь, отплывите от безопасной гавани, поймайте пассат на своих парусах. Исследуй, мечтай, открывай."],
+    "author": ["Mark Twain", "Марк Твен"]
+  },
+  {
+    "quote": ["Life is 10% what happens to me and 90% of how I react to it.",
+              "Жизнь - это 10% того, что происходит со мной, и 90% того, как я на это реагирую."],
+    "author": ["Charles Swindoll", "Чарльз Суиндолл"]
+  },
+  {
+    "quote": ["The most common way people give up their power is by thinking they don’t have any.",
+              "Чаще всего люди отказываются от своей власти, думая, что у них ее нет."],
+    "author": ["Alice Walker", "Элис Уокер"]
+  },
+  {
+    "quote": ["The mind is everything. What you think you become.",
+              "Ваш ум – всё. Вы становитесь тем, что думаете."],
+    "author": ["Buddha", "Будда"]
+  },
+  {
+    "quote": ["The best time to plant a tree was 20 years ago. The second best time is now.",
+              "Лучшее время для посадки дерева было 20 лет назад. Второе лучшее время сейчас."],
+    "author": ["Chinese Proverb", "Китайская пословица"]
+  },
+  {
+    "quote": ["An unexamined life is not worth living.",
+              "Неисследованная жизнь не стоит того, чтобы жить."],
+    "author": ["Socrates", "Сократ"]
+  },
+  {
+    "quote": ["Eighty percent of success is showing up.",
+              "Восемьдесят процентов пути к успеху обеспечивают успех"],
+    "author": ["Woody Allen", "Вуди Аллен"]
+  },
+  {
+    "quote": ["Your time is limited, so don’t waste it living someone else’s life.",
+              "Ваше время ограничено, поэтому не тратьте его зря на чужую жизнь."],
+    "author": ["Steve Jobs", "Стив Джобс"]
+  },
+  {
+    "quote": ["Winning isn’t everything, but wanting to win is.",
+              "Победа - это еще не все, главное - желание победить."],
+    "author": ["Vince Lombardi", "Винс Ломбарди"]
+  },
+  {
+    "quote": ["I am not a product of my circumstances. I am a product of my decisions.",
+              "Я не продукт своих обстоятельств. Я продукт своих решений."],
+    "author": ["Stephen Covey", "Стивен Кови"]
+  },
+  {
+    "quote": ["Every child is an artist.  The problem is how to remain an artist once he grows up.",
+              "Каждый ребенок - художник. Проблема в том, как остаться художником, когда он вырастет."],
+    "author": ["Pablo Picasso", "Пабло Пикассо"]
+  },
+  {
+    "quote": ["You can never cross the ocean until you have the courage to lose sight of the shore.",
+              "Вы никогда не сможете пересечь океан, пока не наберетесь смелости потерять из виду берег."],
+    "author": ["Christopher Columbus", "Христофор Колумб"]
+  },
+  {
+    "quote": ["I’ve learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
+              "Я узнал, что люди забудут то, что вы сказали, люди забудут то, что вы сделали, но люди никогда не забудут, что вы заставили их чувствовать."],
+    "author": ["Maya Angelou", "Майя Анжелу"]
+  },
+  {
+    "quote": ["Either you run the day, or the day runs you.",
+              "Либо вы управляете днем, либо день управляет вами."],
+    "author": ["Jim Rohn", "Джим Рон"]
+  },
+  {
+    "quote": ["Whether you think you can or you think you can’t, you’re right.",
+              "Вы правы, думаете ли вы, что можете, или думаете, что нет."],
+    "author": ["Henry Ford", "Хенри Форд"]
+  },
+  {
+    "quote": ["The two most important days in your life are the day you are born and the day you find out why.",
+              "Два самых важных дня в вашей жизни - это день вашего рождения и день, когда вы узнаете, почему."],
+    "author": ["Mark Twain", "Марк Твен"]
+  },
+  {
+    "quote": ["Whatever you can do, or dream you can, begin it.  Boldness has genius, power and magic in it.",
+              "Начните делать все, что вы можете делать или мечтать. В смелости есть гений, сила и волшебство."],
+    "author": ["Johann Wolfgang von Goethe", "Иоганн Вольфганг фон Гете"]
+  },
+  {
+    "quote": ["The best revenge is massive success.",
+              "Лучшая месть это огромный успех."],
+    "author": ["Frank Sinatra", "Френк Синатра"]
+  },
+  {
+    "quote": ["People often say that motivation doesn’t last. Well, neither does bathing.  That’s why we recommend it daily.",
+              "Люди часто говорят, что мотивация длится недолго. Ну и купание тоже. Вот почему мы рекомендуем его ежедневно."],
+    "author": ["Zig Ziglar", "Зиг Зиглар"]
+  },
+  {
+    "quote": ["Life shrinks or expands in proportion to one’s courage.",
+              "Жизнь сужается или расширяется пропорционально мужеству."],
+    "author": ["Anais Nin", "Анаис Нин"]
+  },
+  {
+    "quote": ["If you hear a voice within you say “you cannot paint,” then by all means paint and that voice will be silenced.",
+              "Если вы слышите внутри себя голос, говорящий «вы не можете рисовать», тогда непременно рисуйте, и этот голос заглушится."],
+    "author": ["Vincent Van Gogh", "Винсент Ван Гог"]
+  },
+  {
+    "quote": ["There is only one way to avoid criticism: do nothing, say nothing, and be nothing.",
+              "Есть только один способ избежать критики: ничего не делать, ничего не говорить и быть ничем."],
+    "author": ["Aristotle", "Аристократ"]
+  },
+  {
+    "quote": ["Ask and it will be given to you; search, and you will find; knock and the door will be opened for you.",
+              "Просите, и вам будет дано; ищите, и вы найдете; стучите и дверь откроется для вас."],
+    "author": ["Jesus", "Иисус"]
+  },
+  {
+    "quote": ["The only person you are destined to become is the person you decide to be.",
+              "Единственный человек, которым вам суждено стать, - это тот, кем вы решили быть."],
+    "author": ["Ralph Waldo Emerson", "Ральф Уолдо Эмерсон"]
+  },
+  {
+    "quote": ["Go confidently in the direction of your dreams. Live the life you have imagined.",
+              "Идите уверенно в направлении своей мечты. Живите той жизнью, которую вы себе представляли."],
+    "author": ["Henry David Thoreau", "Генри Дэвид Торо"]
+  },
+  {
+    "quote": ["When I stand before God at the end of my life, I would hope that I would not have a single bit of talent left and could say, I used everything you gave me.",
+              "Когда я стою перед Богом в конце своей жизни, я надеюсь, что у меня не останется ни капли таланта, и я смогу сказать: «Я использовал все, что вы мне дали»."],
+    "author": ["Erma Bombeck", "Эрма Бомбек"]
+  },
+  {
+    "quote": ["Few things can help an individual more than to place responsibility on him, and to let him know that you trust him.",
+              "Мало что может помочь человеку больше, чем возложить на него ответственность и дать ему понять, что вы ему доверяете."],
+    "author": ["Booker T. Washington", "Букер Т. Вашингтон"]
+  },
+  {
+    "quote": ["Certain things catch your eye, but pursue only those that capture the heart.",
+              "Некоторые вещи бросаются в глаза, но преследуйте только то, что захватывает сердце."],
+    "author": ["Ancient Indian Proverb", "Древняя индийская пословица"]
+  },
+  {
+    "quote": ["Believe you can and you’re halfway there.",
+              "Поверьте, что можете, и вы на полпути."],
+    "author": ["Theodore Roosevelt", "Теодор Рузвельт"]
+  },
+  {
+    "quote": ["Everything you’ve ever wanted is on the other side of fear.",
+              "Все, чего вы когда-либо хотели, находится по ту сторону страха."],
+    "author": ["George Addair", "Джордж Аддэр"]
+  },
+  {
+    "quote": ["We can easily forgive a child who is afraid of the dark; the real tragedy of life is when men are afraid of the light.",
+              "Мы легко можем простить ребенка, который боится темноты; настоящая трагедия жизни - это когда люди боятся света."],
+    "author": ["Plato", "Платон"]
+  },
+  {
+    "quote": ["Teach thy tongue to say, “I do not know,” and thous shalt progress.",
+              "Научи свой язык говорить: «Я не знаю», и ты будешь прогрессировать."],
+    "author": ["Maimonides", "Маймонид"]
+  },
+  {
+    "quote": ["Start where you are. Use what you have.  Do what you can.",
+              "Начните с того места, где вы находитесь. Используйте то, что у вас есть. Делайте то, что вы можете."],
+    "author": ["Arthur Ashe", "Артур Эш"]
+  },
+  {
+    "quote": ["When I was 5 years old, my mother always told me that happiness was the key to life.  When I went to school, they asked me what I wanted to be when I grew up.  I wrote down ‘happy’.  They told me I didn’t understand the assignment, and I told them they didn’t understand life.",
+              "Когда мне было 5 лет, мама всегда говорила мне, что счастье - это ключ к жизни. Когда я пошел в школу, меня спросили, кем я хочу быть, когда вырасту. Я написал «счастлив». Они сказали мне, что я не понимаю задания, и я сказал им, что они не понимают жизнь."],
+    "author": ["John Lennon", "Джон Леннон"]
+  },
+  {
+    "quote": ["Fall seven times and stand up eight.", "Упади семь раз и встань восемь"],
+    "author": ["Japanese Proverb", "Японская пословица"]
+  },
+  {
+    "quote": ["When one door of happiness closes, another opens, but often we look so long at the closed door that we do not see the one that has been opened for us.",
+              "Когда одна дверь счастья закрывается, другая открывается, но часто мы так долго смотрим на закрытую дверь, что не видим той, которая была открыта для нас."],
+    "author": ["Helen Keller", "Хелен Келлер"]
+  },
+  {
+    "quote": ["Everything has beauty, but not everyone can see.",
+              "Во всем есть красота, но не все это видят."],
+    "author": ["Confucius", "Конфуций"]
+  },
+  {
+    "quote": ["How wonderful it is that nobody need wait a single moment before starting to improve the world.",
+              "Как прекрасно, что никому не нужно ждать ни минуты, прежде чем начать улучшать мир."],
+    "author": ["Anne Frank", "Анна Франк"]
+  },
+  {
+    "quote": ["When I let go of what I am, I become what I might be.",
+              "Когда я отпускаю то, что я есть, я становлюсь тем, чем я мог бы быть."],
+    "author": ["Lao Tzu", "Лао-цзы"]
+  },
+  {
+    "quote": ["Life is not measured by the number of breaths we take, but by the moments that take our breath away.",
+              "Жизнь измеряется не количеством вдохов, которые мы делаем, а моментами, от которых у нас перехватывает дыхание."],
+    "author": ["Maya Angelou", "Майя Анжелу"]
+  },
+  {
+    "quote": ["Happiness is not something readymade.  It comes from your own actions.",
+              "Счастье - это не что-то готовое. Это происходит из ваших собственных действий."],
+    "author": ["Dalai Lama", "Далай Лама"]
+  },
+  {
+    "quote": ["If you’re offered a seat on a rocket ship, don’t ask what seat! Just get on.",
+              "Если вам предложили место на ракетном корабле, не спрашивайте, какое место! Просто продолжай."],
+    "author": ["Sheryl Sandberg", "Шерил Сэндберг"]
+  },
+  {
+    "quote": ["First, have a definite, clear practical ideal; a goal, an objective. Second, have the necessary means to achieve your ends; wisdom, money, materials, and methods. Third, adjust all your means to that end.",
+              "Во-первых, иметь определенный, ясный практический идеал; объект, цель. Во-вторых, имейте необходимые средства для достижения ваших целей; мудрость, деньги, материалы и методы. В-третьих, приспособьте для этого все свои средства."],
+    "author": ["Aristotle", "Аристотель"]
+  },
+  {
+    "quote": ["If the wind will not serve, take to the oars.",
+              "Если ветер не подойдет, беритесь за весла."],
+    "author": ["Latin Proverb", "Латинская пословица"]
+  },
+  {
+    "quote": ["You can’t fall if you don’t climb.  But there’s no joy in living your whole life on the ground.",
+              "Вы не можете упасть, если не подниметесь. Но нет никакого удовольствия прожить всю жизнь на земле."],
+    "author": ["Unknown", "Неизвестен"]
+  },
+  {
+    "quote": ["We must believe that we are gifted for something, and that this thing, at whatever cost, must be attained.",
+              "Мы должны верить, что мы на что-то одарены и что это нужно любой ценой достичь."],
+    "author": ["Marie Curie", "Мари Кьюри"]
+  },
+  {
+    "quote": ["Too many of us are not living our dreams because we are living our fears.",
+              "Слишком многие из нас не воплощают в жизнь свои мечты, потому что живут своими страхами."],
+    "author": ["Les Brown", "Лис Браун"]
+  },
+  {
+    "quote": ["Challenges are what make life interesting and overcoming them is what makes life meaningful.",
+              "Проблемы - вот что делает жизнь интересной, а их преодоление - вот что делает жизнь значимой."],
+    "author": ["Joshua J. Marine", "Джошуа Дж. Марин"]
+  },
+  {
+    "quote": ["If you want to lift yourself up, lift up someone else.",
+              "Если хочешь поднять себя, подними кого-нибудь еще."],
+    "author": ["Booker T. Washington", "Букер Т. Вашингтон"]
+  },
+  {
+    "quote": ["I have been impressed with the urgency of doing. Knowing is not enough; we must apply. Being willing is not enough; we must do.",
+              "Я был впечатлен срочностью выполнения. Недостаточно знать; мы должны принять. Одного желания недостаточно; мы должны сделать."],
+    "author": ["Leonardo da Vinci", "Леонардо да Винчи"]
+  },
+  {
+    "quote": ["Limitations live only in our minds.  But if we use our imaginations, our possibilities become limitless.",
+              "Ограничения живут только в нашем сознании. Но если мы используем свое воображение, наши возможности становятся безграничными."],
+    "author": ["Jamie Paolinetti", "Джейми Паолинетти"]
+  },
+  {
+    "quote": ["You take your life in your own hands, and what happens? A terrible thing, no one to blame.",
+              "Вы берете свою жизнь в свои руки, и что происходит? Ужасная вещь, никто не виноват."],
+    "author": ["Erica Jong", "Эрика Джонг"]
+  },
+  {
+    "quote": ["What’s money? A man is a success if he gets up in the morning and goes to bed at night and in between does what he wants to do.",
+              "Какие деньги? Мужчина успешен, если он встает утром и ложится спать ночью, а в перерывах делает то, что хочет."],
+    "author": ["Bob Dylan", "Боб Дилан"]
+  },
+  {
+    "quote": ["I didn’t fail the test. I just found 100 ways to do it wrong.",
+              "Я не провалил тест. Я только что нашел 100 способов сделать это неправильно."],
+    "author": ["Benjamin Franklin", "Бенджамин Франклин"]
+  },
+  {
+    "quote": ["In order to succeed, your desire for success should be greater than your fear of failure.",
+              "Чтобы добиться успеха, ваше стремление к успеху должно быть больше, чем страх неудачи."],
+    "author": ["Bill Cosby", "Билл Косби"]
+  },
+  {
+    "quote": ["A person who never made a mistake never tried anything new.",
+              "Человек, который никогда не ошибался, никогда не пробовал ничего нового."],
+    "author": ["Albert Einstein", "Альберт Энштейн"]
+  },
+  {
+    "quote": ["The person who says it cannot be done should not interrupt the person who is doing it.",
+              "Человек, который говорит, что это невозможно сделать, не должен перебивать того, кто это делает."],
+    "author": ["Chinese Proverb", "Китайская пословица"]
+  },
+  {
+    "quote": ["There are no traffic jams along the extra mile.",
+              "Вдоль лишней мили нет пробок."],
+    "author": ["Roger Staubach", "Роджер Штаубах"]
+  },
+  {
+    "quote": ["It is never too late to be what you might have been.",
+              "Никогда не поздно стать тем, кем вы могли бы быть."],
+    "author": ["George Eliot", "Джордж Элиот"]
+  },
+  {
+    "quote": ["You become what you believe.", "Вы становитесь тем, во что верите."],
+    "author": ["Oprah Winfrey", "Опра Уинфри"]
+  },
+  {
+    "quote": ["I would rather die of passion than of boredom.", "Я лучше умру от страсти, чем от скуки."],
+    "author": ["Vincent van Gogh", "Винсент Ван Гог"]
+  },
+  {
+    "quote": ["A truly rich man is one whose children run into his arms when his hands are empty.",
+              "По-настоящему богатый человек - это тот, чьи дети бегут в его объятия, когда его руки пусты."],
+    "author": ["Unknown", "Неизвестен"]
+  },
+  {
+    "quote": ["It is not what you do for your children, but what you have taught them to do for themselves, that will make them successful human beings.",
+              "Не то, что вы делаете для своих детей, а то, что вы научили их делать для себя, сделает их успешными людьми."],
+    "author": ["Ann Landers", "Энн Ландерс"]
+  },
+  {
+    "quote": ["If you want your children to turn out well, spend twice as much time with them, and half as much money.",
+              "Если вы хотите, чтобы у ваших детей все было хорошо, проводите с ними вдвое больше времени и вдвое меньше денег."],
+    "author": ["Abigail Van Buren", "Эбигейл Ван Бюрен"]
+  },
+  {
+    "quote": ["Build your own dreams, or someone else will hire you to build theirs.",
+              "Стройте свои собственные мечты, или кто-то другой наймет вас, чтобы воплотить их в жизнь."],
+    "author": ["Farrah Gray", "Фарра Грей"]
+  },
+  {
+    "quote": ["The battles that count aren’t the ones for gold medals. The struggles within yourself–the invisible battles inside all of us–that’s where it’s at.",
+            "Бои, которые засчитываются, не приносят золотых медалей. Борьба внутри себя - невидимые битвы внутри всех нас - вот где она."],
+    "author": ["Jesse Owens", "Джесси Оуэнс"]
+  },
+  {
+    "quote": ["Education costs money. But then so does ignorance.",
+              "Образование стоит денег. Но то же самое и с незнанием."],
+    "author": ["Sir Claus Moser", "Сэр Клаус Мозер"]
+  },
+  {
+    "quote": ["I have learned over the years that when one’s mind is made up, this diminishes fear.",
+              "С годами я узнал, что когда человек принимает решение, это уменьшает страх."],
+    "author": ["Rosa Parks", "Роза Паркс"]
+  },
+  {
+    "quote": ["It does not matter how slowly you go as long as you do not stop.",
+              "Неважно, насколько медленно вы идете, пока вы не останавливаетесь."],
+    "author": ["Confucius", "Конфуций"]
+  },
+  {
+    "quote": ["If you look at what you have in life, you’ll always have more. If you look at what you don’t have in life, you’ll never have enough.",
+              "Если вы посмотрите на то, что у вас есть в жизни, у вас всегда будет больше. Если вы посмотрите на то, чего у вас нет в жизни, вам никогда не будет достаточно."],
+    "author": ["Oprah Winfrey", "Опра Уинфри"]
+  },
+  {
+    "quote": ["Remember that not getting what you want is sometimes a wonderful stroke of luck.",
+              "Помните, что не получить желаемое - иногда большая удача."],
+    "author": ["Dalai Lama", "Далай Лама"]
+  },
+  {
+    "quote": ["You can’t use up creativity.  The more you use, the more you have.",
+              "Вы не можете израсходовать творчество. Чем больше вы его используете, тем его у вас больше."],
+    "author": ["Maya Angelou", "Майя Анжелу"]
+  },
+  {
+    "quote": ["Dream big and dare to fail.", "Мечтайте масштабно и не бойтесь потерпеть неудачу."],
+    "author": ["Norman Vaughan", "Норман Воан"]
+  },
+  {
+    "quote": ["Our lives begin to end the day we become silent about things that matter.",
+              "Наша жизнь начинает заканчиваться в тот день, когда мы молчим о важных вещах."],
+    "author": ["Martin Luther King Jr.", "Мартин Лютер Кинг младший."]
+  },
+  {
+    "quote": ["Do what you can, where you are, with what you have.",
+              "Делай, что можешь, где ты есть, с тем, что у тебя есть."],
+    "author": ["Teddy Roosevelt", "Тедди Рузвельт"]
+  },
+  {
+    "quote": ["If you do what you’ve always done, you’ll get what you’ve always gotten.",
+              "Если вы будете делать то, что всегда делали, вы получите то, что всегда получали."],
+    "author": ["Tony Robbins", "Тони Роббинс"]
+  },
+  {
+    "quote": ["Dreaming, after all, is a form of planning.",
+              "В конце концов, сновидения - это форма планирования."],
+    "author": ["Gloria Steinem", "Глория Стейнем"]
+  },
+  {
+    "quote": ["It’s your place in the world; it’s your life. Go on and do all you can with it, and make it the life you want to live.",
+              "Это ваше место в мире; это ваша жизнь. Продолжайте и делайте с ним все, что в ваших силах, и сделайте это той жизнью, которой вы хотите жить."],
+    "author": ["Mae Jemison", "Мэй Джемисон"]
+  },
+  {
+    "quote": ["You may be disappointed if you fail, but you are doomed if you don’t try.",
+              "Вы можете быть разочарованы, если потерпите неудачу, но вы обречены, если не попытаетесь."],
+    "author": ["Beverly Sills", "Beverly Sills"]
+  },
+  {
+    "quote": ["Remember no one can make you feel inferior without your consent.",
+              "Помните, что никто не может заставить вас чувствовать себя неполноценным без вашего согласия."],
+    "author": ["Eleanor Roosevelt", "Элеанор Рузвельт"]
+  },
+  {
+    "quote": ["Life is what we make it, always has been, always will be.",
+              "Жизнь - это то, что мы делаем, всегда была и всегда будет."],
+    "author": ["Grandma Moses", "Бабушка Мозес"]
+  },
+  {
+    "quote": ["The question isn’t who is going to let me; it’s who is going to stop me.",
+              "Вопрос не в том, кто мне позволит, а в том, кто меня остановит."],
+    "author": ["Ayn Rand", "Айн Рэнд"]
+  },
+  {
+    "quote": ["When everything seems to be going against you, remember that the airplane takes off against the wind, not with it.",
+              "Когда кажется, что все идет против вас, помните, что самолет взлетает против ветра, а не вместе с ним."],
+    "author": ["Henry Ford", "Хенри Форд"]
+  },
+  {
+    "quote": ["It’s not the years in your life that count. It’s the life in your years.",
+              "Важны не годы вашей жизни. А жизнь в ваших годах."],
+    "author": ["Abraham Lincoln", "Абрахам Линкольн"]
+  },
+  {
+    "quote": ["Change your thoughts and you change your world.",
+              "Измените свои мысли, и вы измените свой мир."],
+    "author": ["Norman Vincent Peale", "Норман Винсент Пил"]
+  },
+  {
+    "quote": ["Either write something worth reading or do something worth writing.",
+              "Либо напишите что-нибудь стоящее, либо сделайте что-нибудь стоящее."],
+    "author": ["Benjamin Franklin", "Бенджамин Франклин"]
+  },
+  {
+    "quote": ["Nothing is impossible, the word itself says, “I’m possible!”",
+              "Нет ничего невозможного, само слово говорит: «Я возможен!»"],
+    "author": ["Audrey Hepburn", "Одри Хепберн"]
+  },
+  {
+    "quote": ["The only way to do great work is to love what you do.",
+              "Единственный способ делать отличную работу - любить то, что делаешь."],
+    "author": ["Steve Jobs", "Стив Джобс"]
+  },
+  {
+    "quote": ["If you can dream it, you can achieve it.",
+              "Если вы можете мечтать об этом, вы можете этого добиться."],
+    "author": ["Zig Ziglar", "Зиг Зиглар"]
+  }
+]
+}
