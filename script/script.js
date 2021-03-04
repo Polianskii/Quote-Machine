@@ -31,7 +31,11 @@ function showDate() {
 showDate();
 
 // quote machine ============================================================
-function loadQuery() {
+let quotesStore;
+let quote = '';
+let author = '';
+
+function loadQuotes() {
   return $.ajax({
     headers: {
       Accept: 'application/json'
@@ -46,7 +50,25 @@ function loadQuery() {
   });
 }
 
+loadQuotes();
+
+function getRandomQuote() {
+  return quotesStore.quotes[Math.floor(Math.random() * quotesStore.quotes.length)];
+}
+
+function getQuote() {
+  let randomQuote = getRandomQuote();
+
+  quote = randomQuote.quote[0];
+  author = randomQuote.author[0];
+
+  $("#text").html(quote);
+  $("author").html(author);
+}
+
 $(document).ready(function() {  
   setInterval(showDate, 1000);
-  loadQuery();
+  getQuote();
+  console.log(quote, author);
+  console.log(getRandomQuote());
 });
