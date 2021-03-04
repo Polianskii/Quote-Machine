@@ -33,14 +33,14 @@ showDate();
 // quote machine ============================================================
 function loadQuery() {
   return $.ajax({
-    url: 'https://gist.githubusercontent.com/camperbot/5a022b72e96c4c9585c32bf6a75f62d9/raw/e3c6895ce42069f0ee7e991229064f167fe8ccdc/quotes.json',
+    url: 'https://gist.githubusercontent.com/Polianskii/bbe50be999a93869b4be8a29e7e89f2c/raw/e681df0016ebdc71792b3ddaa955ef6c03c47388/quotes.json',
     success: function (jsonQuotes) {
       if (typeof jsonQuotes === 'string') {
         quotesStore = JSON.parse(jsonQuotes);
-        console.log('done')
+        console.log(quotesStore)
       }
     },
-  }).fail(console.log('fail'));
+  });
 }
 
 $(document).ready(function() {  
