@@ -33,6 +33,9 @@ showDate();
 // quote machine ============================================================
 function loadQuery() {
   return $.ajax({
+    headers: {
+      Accept: 'application/json'
+    },
     url: 'https://gist.githubusercontent.com/Polianskii/bbe50be999a93869b4be8a29e7e89f2c/raw/e681df0016ebdc71792b3ddaa955ef6c03c47388/quotes.json',
     success: function (jsonQuotes) {
       if (typeof jsonQuotes === 'string') {
