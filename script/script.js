@@ -63,12 +63,12 @@ function getQuote() {
   author = randomQuote.author[0];
 
   $("#text").html(quote);
-  $("author").html(author);
+  $("#author").html(author);
 }
 
 $(document).ready(function() {  
   setInterval(showDate, 1000);
-  getQuote();
-  console.log(quote, author);
-  console.log(getRandomQuote());
+  loadQuotes().then(() => getQuote());
+
+  
 });
