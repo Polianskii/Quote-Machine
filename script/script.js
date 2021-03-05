@@ -19,13 +19,12 @@ function fistZero(num) {
 function showDate() {
   const date = new Date();
   const year = date.getFullYear();
-  const month = months[date.getMonth()][0];
   const number = fistZero(date.getDate());
   const h = fistZero(date.getHours());
   const m = fistZero(date.getMinutes());
   const s = fistZero(date.getSeconds());
   $("#clock").html(`${h}:${m}:<span class="text-warning">${s}</span>`);
-  $("#day").html(`${number} ${month} ${year}`);
+  $("#day").html(`${number} ${months[date.getMonth()][lang()]} ${year}`);
 }
 
 showDate();
@@ -33,14 +32,12 @@ showDate();
 // languges =================================================================
 // 0 == english, 1 == russian
 function lang() {
-  console.log($("#language").text() === 'EN' ?  0 : 1)
   return $("#language").text() === 'EN' ?  0 : 1;
 }
 
 // quote machine ============================================================
 let quotesStore;
-let quote = '';
-let author = '';
+let randomQuote;
 
 function loadQuotes() {
   return $.ajax({
@@ -61,13 +58,10 @@ function getRandomQuote() {
 }
 
 function getQuote() {
-  let randomQuote = getRandomQuote();
+  randomQuote = getRandomQuote();
 
-  quote = randomQuote.quote[lang()];
-  author = randomQuote.author[lang()];
-
-  $("#text").html(quote);
-  $("#author").html(author);
+  $("#text").html(randomQuote.quote[lang()]);
+  $("#author").html(randomQuote.author[lang()]);
 }
 
 $(document).ready(function() {  
@@ -85,5 +79,7 @@ $(document).ready(function() {
     } else {
       $("#language").text("EN");
     }
+    $("#text").html(randomQuote.quote[lang()]);
+    $("#author").html(randomQuote.author[lang()]);
   });
 });
