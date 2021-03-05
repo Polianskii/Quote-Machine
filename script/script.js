@@ -19,12 +19,13 @@ function fistZero(num) {
 function showDate() {
   const date = new Date();
   const year = date.getFullYear();
+  const month = months[date.getMonth()][lang()];
   const number = fistZero(date.getDate());
   const h = fistZero(date.getHours());
   const m = fistZero(date.getMinutes());
   const s = fistZero(date.getSeconds());
   $("#clock").html(`${h}:${m}:<span class="text-warning">${s}</span>`);
-  $("#day").html(`${number} ${months[date.getMonth()][lang()]} ${year}`);
+  $("#day").html(`${number} ${month} ${year}`);
 }
 
 showDate();
