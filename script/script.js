@@ -30,6 +30,13 @@ function showDate() {
 
 showDate();
 
+// languges =================================================================
+// 0 == english, 1 == russian
+function lang() {
+  console.log($("#language").text() === 'EN' ?  0 : 1)
+  return $("#language").text() === 'EN' ?  0 : 1;
+}
+
 // quote machine ============================================================
 let quotesStore;
 let quote = '';
@@ -44,7 +51,6 @@ function loadQuotes() {
     success: function (jsonQuotes) {
       if (typeof jsonQuotes === 'string') {
         quotesStore = JSON.parse(jsonQuotes);
-        console.log(quotesStore)
       }
     },
   });
@@ -57,8 +63,8 @@ function getRandomQuote() {
 function getQuote() {
   let randomQuote = getRandomQuote();
 
-  quote = randomQuote.quote[0];
-  author = randomQuote.author[0];
+  quote = randomQuote.quote[lang()];
+  author = randomQuote.author[lang()];
 
   $("#text").html(quote);
   $("#author").html(author);
@@ -66,7 +72,18 @@ function getQuote() {
 
 $(document).ready(function() {  
   setInterval(showDate, 1000);
-  loadQuotes().then(() => getQuote());
+  
+  loadQuotes().then(() => {
+    getQuote();
+  });
 
   $("#new-quote").on('click', getQuote);
+
+  $("#language").on("click", () => {
+    if ($("#language").text() === 'EN') {
+      $("#language").text("RU");
+    } else {
+      $("#language").text("EN");
+    }
+  });
 });
