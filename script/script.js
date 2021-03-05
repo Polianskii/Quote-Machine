@@ -24,7 +24,7 @@ function showDate() {
   const h = fistZero(date.getHours());
   const m = fistZero(date.getMinutes());
   const s = fistZero(date.getSeconds());
-  $("#clock").html(`${h}:${m}:<span class="text-secondary">${s}</span>`);
+  $("#clock").html(`${h}:${m}:<span class="text-warning">${s}</span>`);
   $("#day").html(`${number} ${month} ${year}`);
 }
 
@@ -49,8 +49,6 @@ function loadQuotes() {
     },
   });
 }
-
-loadQuotes();
 
 function getRandomQuote() {
   return quotesStore.quotes[Math.floor(Math.random() * quotesStore.quotes.length)];
