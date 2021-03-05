@@ -70,5 +70,5 @@ $(document).ready(function() {
   setInterval(showDate, 1000);
   loadQuotes().then(() => getQuote());
 
-  
+  $("#new-quote").on('click', getQuote);
 });
