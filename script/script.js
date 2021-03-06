@@ -70,9 +70,13 @@ function getQuote() {
       encodeURIComponent(`"${randomQuote.quote[lang()]}" ${randomQuote.author[lang()]}`)
   );
 
+  $("#quote-left").removeAttr("hidden").addClass("animate__animated animate__fadeInLeft");
+  $("#quote-right").removeAttr("hidden").addClass("animate__animated animate__fadeInRight");
   $("#text").addClass("animate__animated animate__fadeInDown");
   $("#author").addClass("animate__animated animate__fadeInUp");
   setTimeout(() => {
+    $("#quote-left").removeClass("animate__animated animate__fadeInLeft");
+  $("#quote-right").removeClass("animate__animated animate__fadeInRight");
     $("#text").removeClass("animate__animated animate__fadeInDown");
     $("#author").removeClass("animate__animated animate__fadeInUp");
   }, 1000)
