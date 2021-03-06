@@ -54,6 +54,11 @@ function loadQuotes() {
   });
 }
 
+<<<<<<< Updated upstream
+=======
+//loadQuotes();
+
+>>>>>>> Stashed changes
 function getRandomQuote() {
   return quotesStore.quotes[Math.floor(Math.random() * quotesStore.quotes.length)];
 }
