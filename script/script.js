@@ -63,6 +63,13 @@ function getQuote() {
 
   $("#text").html(randomQuote.quote[lang()]);
   $("#author").html(randomQuote.author[lang()]);
+
+  $('#tweet-quote').attr(
+    'href',
+    'https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' +
+      encodeURIComponent(`"${randomQuote.quote[lang()]}" ${randomQuote.author[lang()]}`)
+  );
+
 }
 
 $(document).ready(function() {  
