@@ -27,22 +27,22 @@
   <body class="d-flex flex-column vh-100 bg-secondary text-white">
   
       <header class="d-flex justify-content-evenly align-items-baseline bg-dark">
-        <p class="fs-5 pt-2">Today: 
+        <p class="fs-5 pt-2"><span id="today">Today</span>: 
           <span class="fw-bold text-info" id="day"></span> 
           <span class="fw-bold text-info" id="month"></span> 
           <span class="fw-bold text-info" id="year"></span>
         </p>
-        <p class="fs-5 pt-2">Local time: 
+        <p class="fs-5 pt-2"><span id="local_time">Local time</span>: 
           <span class="fw-bold text-info" id="clock"></span><span class="fw-bold text-warning" id="seconds"></span>
         </p>
       </header>
   
       <main class="d-flex flex-column align-items-center flex-fill">
-        <h1 class="pt-3 pb-1 pt-sm-5 pb-sm-3 text-center">Random Quote Machine</h1>
+        <h1 class="pt-3 pb-1 pt-sm-5 pb-sm-3 text-center" id="heading">Random Quote Machine</h1>
   
         <section class="card col-sm-10 col-md-10 col-lg-8 col-xl-6 col-xxl-6 mb-5 mx-2 me-2" id="quote-box">
           <div class="d-flex justify-content-between mt-3">
-            <h5 class="ps-4 text-primary">Quote</h5>
+            <h5 class="ps-4 text-primary" id="quote">Quote</h5>
             <button class="btn btn-outline-secondary btn-sm me-4" id="language" type="button">EN</button>
           </div>
   
@@ -73,7 +73,7 @@
       </main>
   
       <footer class="bg-dark text-center">
-        <p class="pt-3 fw-light"><i class="far fa-copyright"></i> by Pavel Polyansky</p>
+        <p class="pt-3 fw-light"><i class="far fa-copyright"></i> <span id="developer">by Pavel Polyansky</span></p>
       </footer>
     
       <script src="./script/script.js" defer></script>

@@ -12,12 +12,13 @@
                 ['november', 'ноябрь'],
                 ['december', 'декабрь']];
 
+const date = new Date();
+
 function fistZero(num) {
   return num < 10 ? '0' + num : num;
 }
 
 function showDate() {
-  const date = new Date();
   $("#clock").text(`${fistZero(date.getHours())}:${fistZero(date.getMinutes())}`);
   $("#seconds").text(`:${fistZero(date.getSeconds())}`);
   $("#day").text(`${fistZero(date.getDate())}`);
@@ -29,8 +30,34 @@ showDate();
 
 // languges =================================================================
 // 0 == english, 1 == russian
+const content = {
+  today: ["Today", "Сегодня"],
+  local_time: ["Local time", "Местное время"],
+  heading: ["Random Quote Machine", "Генератор случайных цитат"],
+  quote: ["Quote", "Цитата"],
+  new_quote: ["New quote", "Новая цитата"],
+  developer: ["by Pavel Polyansky", "сделал Павел Полянский"]
+}
+
 function lang() {
   return $("#language").text() === 'EN' ?  0 : 1;
+}
+
+function changeLang() {
+  if ($("#language").text() === 'EN') {
+    $("#language").text("RU");
+  } else {
+    $("#language").text("EN");
+  }
+  $("#text").html(randomQuote.quote[lang()]);
+  $("#author").html(randomQuote.author[lang()]);
+  $("#month").text(`${months[date.getMonth()][lang()]}`);
+  $("#today").text(`${content.today[lang()]}`);
+  $("#local_time").text(`${content.local_time[lang()]}`);
+  $("#heading").text(`${content.heading[lang()]}`);
+  $("#quote").text(`${content.quote[lang()]}`);
+  $("#new-quote").text(`${content.new_quote[lang()]}`);
+  $("#developer").text(`${content.developer[lang()]}`);
 }
 
 // quote machine ============================================================
@@ -71,9 +98,10 @@ function getQuote() {
   $("#quote-right").removeAttr("hidden").addClass("animate__animated animate__fadeInRight");
   $("#text").addClass("animate__animated animate__fadeInDown");
   $("#author").addClass("animate__animated animate__fadeInUp");
+
   setTimeout(() => {
     $("#quote-left").removeClass("animate__animated animate__fadeInLeft");
-  $("#quote-right").removeClass("animate__animated animate__fadeInRight");
+    $("#quote-right").removeClass("animate__animated animate__fadeInRight");
     $("#text").removeClass("animate__animated animate__fadeInDown");
     $("#author").removeClass("animate__animated animate__fadeInUp");
   }, 1000)
@@ -88,13 +116,5 @@ $(document).ready(function() {
 
   $("#new-quote").on('click', getQuote);
   
-  $("#language").on("click", () => {
-    if ($("#language").text() === 'EN') {
-      $("#language").text("RU");
-    } else {
-      $("#language").text("EN");
-    }
-    $("#text").html(randomQuote.quote[lang()]);
-    $("#author").html(randomQuote.author[lang()]);
-  });
+  $("#language").on("click", changeLang);
 });
