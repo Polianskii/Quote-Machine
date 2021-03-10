@@ -19,11 +19,13 @@ function fistZero(num) {
 }
 
 function showDate() {
+  let date = new Date();
   $("#clock").text(`${fistZero(date.getHours())}:${fistZero(date.getMinutes())}`);
   $("#seconds").text(`:${fistZero(date.getSeconds())}`);
   $("#day").text(`${fistZero(date.getDate())}`);
   $("#month").text(`${months[date.getMonth()][lang()]}`);
   $("#year").text(`${date.getFullYear()}`);
+  console.log(fistZero(date.getSeconds()))
 }
 
 showDate();
