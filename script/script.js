@@ -79,7 +79,9 @@ function loadQuotes() {
 }
 
 function getRandomQuote() {
-  return quotesStore.quotes[Math.floor(Math.random() * quotesStore.quotes.length)];
+  let index = quotesStore.quotes[Math.floor(Math.random() * quotesStore.quotes.length)];
+  if (randomQuote === index) return getRandomQuote();
+  return index;
 }
 
 function getQuote() {
@@ -106,6 +108,8 @@ function getQuote() {
     $("#author").removeClass("animate__animated animate__fadeInUp");
   }, 1000)
 }
+
+// ============================================================================
 
 $(document).ready(function() {  
   setInterval(showDate, 1000);
